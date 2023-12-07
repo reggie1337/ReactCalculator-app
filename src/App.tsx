@@ -26,7 +26,6 @@ const buttonNine = 9;
 const buttonZero = 0;
 
 const App = () => {
-  // Assuming currentValue is a state variable
   const [currentValue, setCurrentValue] = useState(0);
   const [prevNum, setPrevNum] = useState("");
 
@@ -57,22 +56,6 @@ const App = () => {
     setCurrentValue(result);
     setPrevNum("");
   };
-
-  // let mathOperator
-  // if (calculationType === 'ADD'){
-  //   currentValue += enteredNumber;
-  //   mathOperator = '+';
-  // } else if (calculationType === 'SUBTRACT') {
-  //   currentValue -= enteredNumber;
-  //   mathOperator = '-';
-  // } else if (calculationType === 'MULTIPLY') {
-  //   currentValue *= enteredNumber;
-  //   mathOperator = '*';
-  // } else if (calculationType === 'DIVIDE') {
-  //   currentValue /= enteredNumber;
-  //   mathOperator = '/';
-
-  // }
 
   const card = (
     <React.Fragment>
